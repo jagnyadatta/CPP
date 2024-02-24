@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int num,fourth_place,third_place,second_place,unit_place;
     int sum,shiftAmount,leftShiftResult,rightShiftResult,zeroFillResult;
-    cout << "Enter a 4-digit number: ";
+    cout << "Enter a 4-digit number: "<<endl;
     cin >> num;
     fourth_place = num / 1000;
     third_place = (num / 100) % 10;
